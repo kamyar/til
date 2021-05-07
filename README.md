@@ -1,3 +1,20 @@
+
+## Install til
+```bash
+$ pip install til-cli
+```
+
+Then start adding things that you learn:
+```bash
+$ til new "How to parse yaml in Python"
+Content:
+Just use ruamel.yaml
+pip install ruamel.yaml
+^C
+```
+
+
+
 ## Setup:
 #### Install Python 3.x
 Requires Python >= 3.9.
