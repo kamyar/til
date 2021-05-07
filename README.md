@@ -1,5 +1,5 @@
 
-## Install til
+## Install TIL
 ```bash
 $ pip install til-cli
 ```
@@ -13,9 +13,34 @@ pip install ruamel.yaml
 ^C
 ```
 
+You can decide what you want to do with your TILs using TIL plugins:
+- YAML: Write to a yaml file
+- ...more to come...
+
+You can edit copy `.til.toml.default` to your home directory as `.til.toml` and add more plugins or change their configuration.
+As an example by default TIL in YAML plugin creates a `til.yaml` file in your home directory, you can make it use any path your system.
 
 
-## Setup:
+
+Planned features:
+- [x] Initial implementation
+- [x] YAML plugin as POC
+- [ ] CI / CD for publishing to pypi with releases
+- [ ] some tests
+- [ ] Other tools to install
+    - [ ] MacOS - brew
+    - [ ] Debian/Ubuntu - apt (snap packages?)
+- [ ] More plugins
+    - [ ] POST to endpoint
+    - [ ] Twitter
+    - [ ] Email?
+- [ ] tags support (e.g. Python, js, k8s, devops, science, etc.)
+- [ ] Search tils by
+    - [ ] keyword
+    - [ ] tags
+
+
+## Contribute:
 #### Install Python 3.x
 Requires Python >= 3.9.
 
