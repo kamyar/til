@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "til"
-version = "0.1.0"
+name = "til-cli"
+version = "0.1.1"
 description = "Keep track of things you learn each day"
 authors = ["Kamyar Ghasemlou <github@kamy.me>"]
 packages = [
