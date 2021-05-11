@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "til-cli"
-version = "0.1.4"
+version = "0.2.0"
 description = "Keep track of things you learn each day"
 authors = ["Kamyar Ghasemlou <github@kamy.me>"]
 packages = [
@@ -12,7 +12,7 @@ homepage = "https://github.com/kamyar/til"
 repository = "https://github.com/kamyar/til"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.6"
 click = "^7.1.2"
 toml = "^0.10.2"
 "ruamel.yaml" = "^0.17.4"
