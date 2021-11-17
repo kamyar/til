@@ -5,7 +5,7 @@
 
 ## Install TIL
 ```bash
-$ pip install til-cli
+$ pip install til
 ```
 
 Then start adding things that you learn:
